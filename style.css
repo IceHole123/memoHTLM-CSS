@@ -75,6 +75,9 @@ h2 , h1
     border-right-width:5px;
     border-right-style: solid;
     border-right-color: black;
+    border-top-width:5px;
+    border-top-style: solid;
+    border-top-color: black;
 }
 .site
 {
@@ -94,13 +97,17 @@ code
 a:link{text-decoration:none;}
 .link
 {
-    color:rgb(228, 228, 228)
+    color:rgb(228, 228, 228);
 }
 .containerh1
 {
     width:100%;
     margin:auto;
     display:flex; 
-    padding:auto;   
+    justify-content: center; 
 }
-
+.link:hover
+{
+    color:rgb(2, 0, 37);
+    text-decoration: underline rgb(2, 0, 37);
+}
